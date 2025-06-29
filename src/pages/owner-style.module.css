@@ -1,0 +1,89 @@
+
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color:goldenrod;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.header {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.infoPersonal {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.fotoPerfil {
+  border-radius: 100%;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.peliculas {
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+
+.listaPeliculas {
+  list-style: none;
+  padding: 0;
+}
+
+.peliculaItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+
+.btnEliminar {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnEliminar:hover {
+  background-color: black;
+}
+
+.btnAgregar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btnAgregar:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
