@@ -67,7 +67,7 @@ const Owner = () => {
 
 
       <footer className={styles.footer}>
-        <p>&copy; 2025 Sandra Bautista</p>
+        <p> 2025 Sandra Bautista</p>
       </footer>
     </div>
   );
